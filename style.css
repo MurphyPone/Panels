@@ -1,0 +1,147 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: block;
+	overflow: hidden;
+
+	font-family: "Lato", sans-serif;
+}
+
+.button {
+    background-color: #6600ff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.textbox {
+    background: white;
+    border: 1px solid #6600ff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #6600ff;
+    color: #666;
+    outline: none;
+    height:23px;
+    width: 275px;
+}
+
+#title {
+	color: white;
+	position: absolute;
+	bottom: -10px;
+	left: 10px;
+}
+
+#image {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+#localImport {
+	z-index: 2;
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	width: 300px;
+}
+
+#URLbox {
+	z-index: 2;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 300px;
+}
+
+#soundcloud {
+	position: absolute;
+	top: 10px;
+	left: 320px;
+	z-index: 2;
+}
+
+#button_play {
+	z-index: 2;
+	position: relative;
+	bottom: 50px;
+	left: 58.9vw;
+}
+
+#button_pause {
+	z-index: 2;
+	position: relative;
+	bottom: 86px;
+	left: 59vw;
+}
+
+#scrubber {
+	z-index: 2;
+	position: relative;
+	bottom: 110px;
+	left: 59vw;
+}
+
+#artisttitle {
+	color: white;
+	position: absolute;
+	bottom: 25px;
+	left: 60vw;
+	font-size: 40%;
+}
+
+#songtitle {
+	color: white;
+	position: absolute;
+	bottom: 40px;
+	left: 55vw;
+	font-size: 50%;
+}
+
+#audioCurrentTime {
+	color: white;
+	position: relative;
+	bottom: 147px;
+	left: 92vw;
+	font-size: 70%;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 10px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #6600ff;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+.link {
+	color: rgb(255, 255, 255);
+}
